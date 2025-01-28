@@ -1,0 +1,45 @@
+.table-row {
+    display: flex;
+    list-style-type: none;
+    border-left: 2px solid #cbd5e1;
+    border-bottom: 2px solid #cbd5e1;
+    border-right: 2px solid #cbd5e1;
+}
+.history-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    padding: 5px;
+    width: 300%;
+
+}
+.table-cell, .title {
+    color: #4c4f52;
+    font-size: 12px;
+    font-weight: 500;
+}
+.table-cell {
+    color: #4c4f52;
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.delete-icon {
+    height: 18px;
+}
+.delete-icon-container{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  
+.table-cell, .amount {
+    flex-grow: 1;
+}
+  
+
+  
